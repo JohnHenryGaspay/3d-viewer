@@ -1,5 +1,4 @@
-name: Upload Website
-
+name: Deply Website
 on:
   push:
     branches:
