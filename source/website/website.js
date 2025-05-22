@@ -747,7 +747,7 @@ export class Website
             });
         });
 
-        let selectedTheme = (this.settings.themeId === Theme.Light ? 1 : 0);
+        let selectedTheme = (this.settings.themeId === Theme.Dark ? 1 : 0);
         AddRadioButton (this.toolbar, ['dark_mode', 'light_mode'], [Loc ('Dark mode'), Loc ('Light mode')], selectedTheme, ['align_right'], (buttonIndex) => {
             if (buttonIndex === 0) {
                 this.settings.themeId = Theme.Dark;
