@@ -61,7 +61,7 @@ export function StartWebsite (externalLibLocation)
         } */
 
         document.getElementById ('intro_dragdrop_text').innerHTML = Loc ('Ziehe dein 3D-Modell einfach per Drag & Drop hierher.');
-        document.getElementById ('intro_formats_title').innerHTML = Loc ('Beispieldatei ansehen: johng');
+        document.getElementById ('intro_formats_title').innerHTML = Loc ('Beispieldatei ansehen:');
 
         let website = new Website ({
             headerDiv : document.getElementById ('header'),
